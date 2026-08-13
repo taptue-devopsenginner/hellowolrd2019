@@ -16,4 +16,12 @@ public class Greeter {
   public String greet(String someone) {
     return String.format("Hello, %s!", someone);
   }
+
+  /**
+   * Main method to run the Greeter.
+   */
+  public static void main(String[] args) {
+    Greeter greeter = new Greeter();
+    System.out.println(greeter.greet("World"));
+  }
 }
